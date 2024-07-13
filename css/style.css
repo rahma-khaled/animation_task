@@ -1,0 +1,122 @@
+
+body{
+   background-image: url(../images/road.png);
+}
+
+
+.div1{
+   position: absolute;
+   top:-10px;
+   left: 0;
+   animation-name: change;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
+}
+
+.div5{
+   position: absolute;
+   right: 0;
+   top:60px;
+   animation-name: change2;
+   animation-duration: 5s;
+   animation-delay:5s;
+   animation-fill-mode:forwards;
+}
+
+.div2{
+   /* width: 150px;
+   height: 150px; */
+   position: absolute;
+   left: 0;
+   top:140px;
+   animation-name: change;
+   animation-duration: 5s;
+   /* animation-iteration-count:infinite; */
+   animation-delay: 10s;
+   animation-fill-mode:forwards;
+}
+
+.div6{
+   position: absolute;
+   right: 0;
+   top:210px;
+   animation-name: change2;
+   animation-duration: 5s;
+   animation-delay:15s;
+   animation-fill-mode:forwards;
+}
+
+
+.div3{
+   position: absolute;
+   left: 0;
+   top:290px;
+   animation-name: change;
+   animation-duration: 5s;
+   animation-delay:20s;
+   animation-fill-mode:forwards;
+}
+
+
+.div7{
+   position: absolute;
+   right: 0;
+   top:370px;
+   animation-name: change2;
+   animation-duration: 5s;
+   animation-delay:25s;
+   animation-fill-mode:forwards;
+}
+
+.div4{
+   position: absolute;
+   left: 0;
+   top:440px;
+   animation-name: change;
+   animation-duration: 5s;
+   animation-delay:30s;
+   animation-fill-mode:forwards;
+}
+
+
+.div8{
+   position: absolute;
+   right: 0;
+   top:510px;
+   animation-name: change2;
+   animation-duration: 5s;
+   animation-delay:35s;
+   animation-fill-mode:forwards;
+}
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover,
+.div6:hover,
+.div7:hover,
+.div8:hover{
+   animation-play-state: paused;
+
+}
+
+@keyframes change{
+   0%{
+      left:0;
+   }
+   100%{
+      left:1100px;
+   }
+}
+
+@keyframes change2{
+   0%{
+      right:0;
+   }
+   100%{
+      right:1100px;
+   }
+}
+
+
